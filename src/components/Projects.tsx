@@ -8,13 +8,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'KQart-Frontend',
+      title: 'QKart-Frontend',
       shortDesc: 'Modern e-commerce application with React',
       fullDesc: 'QKart is an e-commerce application offering a variety of products for customers to choose buy and get delivered to their required address.',
       image: './KQart.png',
       tech: ['React.Js', 'React-Router', 'Material UI', 'React Hooks', 'Form', 'Responsive Design'],
       github: 'https://github.com/sreekanth039',
-      demo: 'https://demo-project.com', // once completed will publish this demo link
+      demo: 'https://sreekanthmekala-qkartfrontend.vercel.app/',
       status: 'In Progress',
       duration: '2 months',
       teamSize: '4 members',
