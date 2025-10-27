@@ -15,7 +15,7 @@ const Projects = () => {
       tech: ['React.Js', 'React-Router', 'Material UI', 'React Hooks', 'Form', 'Responsive Design'],
       github: 'https://github.com/sreekanth039',
       demo: 'https://sreekanthmekala-qkartfrontend.vercel.app/',
-      status: 'In Progress',
+      status: 'Completed',
       duration: '2 months',
       teamSize: '4 members',
       features: [
