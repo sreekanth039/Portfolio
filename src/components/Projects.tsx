@@ -6,8 +6,30 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
-    {
+       {
       id: 1,
+      title: 'QTify',
+      shortDesc: 'Song Browsing Web App',
+      fullDesc: "QTify is a music browsing web application that allows users to explore, search, and discover top and new albums. Built from scratch using React and Material UI based on Figma designs, QTify focuses on creating a responsive, reusable, and visually consistent frontend experience.",
+      image: './Qtify.png',
+      tech: ['React.Js', 'Material UI', 'Figma', 'React Hooks', 'Form', 'Responsive Design'],
+      github: 'https://github.com/sreekanth039',
+      demo: 'https://q-tify-bice.vercel.app/',
+      status: 'Completed',
+      duration: '1 month',
+      teamSize: '2 members',
+      features: [
+  'Developed a responsive music browsing UI from scratch using React (Vite), closely following the Figma design to achieve pixel-perfect layouts.',
+  'Implemented modular and reusable components (Navbar, Search, Card, Section, etc.) to build a scalable frontend architecture with Material UI and CSS Modules.',
+  'Integrated dynamic data fetching from the QTify backend API to display Top and New Albums with real-time updates.',
+  'Created an interactive search feature with autocomplete functionality to enhance user experience.',
+  'Built a responsive grid layout for displaying albums and songs, ensuring optimal viewing on all devices.',
+  'Deployed the application using Vercel, enabling seamless and reliable access across environments.',
+  'Focused on accessibility, maintainability, and performance optimization throughout the project lifecycle.'
+],
+    },
+    {
+      id: 2,
       title: 'QKart-Frontend',
       shortDesc: 'Modern e-commerce application with React',
       fullDesc: 'QKart is an e-commerce application offering a variety of products for customers to choose buy and get delivered to their required address.',
@@ -29,7 +51,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'QTripDynamic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.',
       fullDesc: 'QTripDynamic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -49,7 +71,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'QTripStatic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities. ',
       fullDesc: 'QTripStatic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -67,7 +89,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'Xboard',
       shortDesc: 'XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.',
       fullDesc: 'XBoard is a dynamic news feed application that aggregates and displays the latest updates on selected topics from Flipboard. It provides users with real-time news content in an intuitive, responsive interface, making it easy to stay informed and engaged with trending stories across different categories.',
