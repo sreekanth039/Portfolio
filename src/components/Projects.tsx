@@ -6,8 +6,35 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+  id: 1,
+  title: 'Hirrd',
+  shortDesc: 'Full-stack Job Portal',
+  fullDesc:
+    "Hirrd is a modern job marketplace where candidates can browse, save, and apply to jobs while recruiters post roles and manage applicants. Built with React (Vite) + Tailwind v4 + shadcn/ui, authenticated via Clerk, and powered by Supabase (Postgres, RLS, Storage). Deployed on Vercel with SPA rewrites and route-level code-splitting.",
+  image: './hirrd.png',
+  tech: [
+    'React.js', 'Vite', 'Tailwind CSS v4', 'shadcn/ui',
+    'React Router', 'React Hook Form', 'Zod',
+    'Supabase (Postgres, RLS, Storage)', 'Clerk Auth', 'Vercel'
+  ],
+  github: 'https://github.com/sreekanth039/Hirrd',
+  demo: 'https://hirrd-topaz.vercel.app/',
+  status: 'Completed',
+  duration: '1 month',
+  teamSize: '1 member',
+  features: [
+    'Advanced job search with filters (title, location, company) and responsive UI.',
+    'Rich job detail pages with Markdown requirements, company logos, and hiring status (Open/Closed).',
+    'Apply with resume upload (PDF/DOC/DOCX) + education, skills, and experience; client-side validation via Zod & react-hook-form.',
+    'Save/unsave jobs and view Saved Jobs; My Jobs for recruiters with delete & status toggle.',
+    'Secure auth and protected routes using Clerk; Supabase Row-Level Security and storage for resumes.',
+    'Clean API layer and reusable useFetch hook for tokened requests, optimistic updates, and error handling.',
+    'Deployed on Vercel with SPA rewrites for client routes and code-splitting for fast loads.'
+  ],
+},
        {
-      id: 1,
+      id: 2,
       title: 'QTify',
       shortDesc: 'Song Browsing Web App',
       fullDesc: "QTify is a music browsing web application that allows users to explore, search, and discover top and new albums. Built from scratch using React and Material UI based on Figma designs, QTify focuses on creating a responsive, reusable, and visually consistent frontend experience.",
@@ -29,7 +56,7 @@ const Projects = () => {
 ],
     },
     {
-      id: 2,
+      id: 3,
       title: 'QKart-Frontend',
       shortDesc: 'Modern e-commerce application with React',
       fullDesc: 'QKart is an e-commerce application offering a variety of products for customers to choose buy and get delivered to their required address.',
@@ -51,7 +78,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'QTripDynamic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.',
       fullDesc: 'QTripDynamic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -71,7 +98,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'QTripStatic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities. ',
       fullDesc: 'QTripStatic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -89,7 +116,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: 'Xboard',
       shortDesc: 'XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.',
       fullDesc: 'XBoard is a dynamic news feed application that aggregates and displays the latest updates on selected topics from Flipboard. It provides users with real-time news content in an intuitive, responsive interface, making it easy to stay informed and engaged with trending stories across different categories.',
