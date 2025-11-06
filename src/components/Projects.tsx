@@ -19,7 +19,7 @@ const Projects = () => {
     'Supabase (Postgres, RLS, Storage)', 'Clerk Auth', 'Vercel'
   ],
   github: 'https://github.com/sreekanth039/Hirrd',
-  demo: 'https://hirrd-topaz.vercel.app/',
+  demo: 'https://hirrd-phi.vercel.app/',
   status: 'Completed',
   duration: '1 month',
   teamSize: '1 member',
