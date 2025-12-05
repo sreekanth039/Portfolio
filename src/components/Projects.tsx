@@ -8,6 +8,107 @@ const Projects = () => {
   const projects = [
     {
   id: 1,
+  title: 'Bot AI',
+  shortDesc: 'AI-style Chat App with Ratings & History',
+  fullDesc:
+    "Bot AI is a modern conversational interface built with React and Material UI that simulates AI responses using a local JSON dataset. Users can chat with the bot, rate individual AI replies with stars, leave detailed feedback, and save entire chat sessions to localStorage. The app includes a dedicated history page with date-based grouping, rating filters, and a global light/dark theme toggle powered by a custom ThemeContext.",
+  image: './botai.png',
+  tech: [
+    'React.js',
+    'Material UI (MUI)',
+    'React Router DOM',
+    'date-fns',
+    'JavaScript (ES6+)',
+    'localStorage API'
+  ],
+  github: 'https://github.com/sreekanth039/BotAI',
+  demo: 'https://bot-ai-phi-five.vercel.app/',
+  status: 'Completed',
+  duration: '1 week',
+  teamSize: '1 member',
+  features: [
+    'AI-style chat interface with separate Human and Bot message bubbles, avatars, timestamps, and auto-scroll to the latest message.',
+    'Predefined quick-prompt cards on the landing state to help users start conversations instantly.',
+    'Static AI response engine backed by a local JSON file with graceful fallback for unknown queries.',
+    'Per-message feedback system for AI replies with thumbs-up action, 1–5 star rating, and optional detailed feedback via modal.',
+    'Ability to save entire chat sessions to localStorage, including messages, timestamps, ratings, and feedback.',
+    'Conversation history page that groups saved sessions by Today, Yesterday, or formatted date using date-fns.',
+    'Rating-based filter on the history page to quickly find sessions with specific star ratings (1–5 stars or All Ratings).',
+    'Light/Dark theme toggle implemented with a custom ThemeContext, applied across Navbar, Sidebar, cards, and chat UI.',
+    'Responsive layout with a mobile-friendly sidebar containing New Chat, Past Conversations, and theme toggle actions.',
+    'Custom-styled scrollbars, hover effects, and smooth transitions built with Material UI’s sx styling system.'
+  ],
+},
+    {
+  id: 2,
+  title: 'Medify',
+  shortDesc: 'Medical Center Search & Appointment Booking UI',
+  fullDesc:
+    "Medify is a responsive medical center discovery and appointment booking interface. Users can search hospitals by state and city, view detailed hospital cards, explore ratings, and book available appointment slots. Built using React (Vite), Material UI, Swiper.js, and date-fns, the app features a smooth 7-day sliding calendar, time-slot picker, booking modal, and real-time API integration. Deployed on Vercel with optimized routing and SPA behavior.",
+  image: './medify.png',
+  tech: [
+    'React.js', 
+    'Vite', 
+    'Material UI (MUI)', 
+    'Swiper.js', 
+    'date-fns',
+    'React Router DOM',
+    'CSS Modules',
+    'Vercel Deployment',
+    'Google Tag Manager (dataLayer events)'
+  ],
+  github: 'https://github.com/sreekanth039/Medify',
+  demo: 'https://medify-seven-red.vercel.app/',
+  status: 'Completed',
+  duration: '1 month',
+  teamSize: '1 member',
+  features: [
+    'Search medical centers by state and city with real-time API data fetching.',
+    'Clean hospital cards showing name, location, hospital type, and ratings.',
+    '7-day interactive date selector using Swiper.js with custom slide navigation.',
+    'Dynamic time-slot picker with morning, afternoon, and evening sessions.',
+    'Booking workflow with selected date & time displayed in confirmation UI.',
+    'Auto-hide booking success message and modal-based booking interface.',
+    'Responsive layout built with Material UI Grid & Stack components.',
+    'Human-friendly date formatting using date-fns (Today, Tomorrow, E, d LLL).',
+    'Custom event pushing via Google Tag Manager (dataLayer) for analytics.',
+    'Fully responsive experience across mobile, tablet, and desktop sizes.',
+    'Deployed on Vercel with SPA support and optimized production build.'
+  ],
+},
+    {
+  id: 3,
+  title: 'Expense Tracker',
+  shortDesc: 'Track, categorize, and visualize daily expenses with charts.',
+  fullDesc:
+    "Expense Tracker is a simple yet powerful budgeting tool built with React + Vite. It allows users to manage their daily spending by adding, editing, and deleting expenses, while maintaining a real-time balance updated through income entries. The app provides category-wise visual analytics using Recharts, stores all data in localStorage for persistence, and features a clean, responsive UI suitable for both desktop and mobile users.",
+  image: './expense-tracker.png',
+  tech: [
+    'React.js',
+    'Vite',
+    'Recharts',
+    'localStorage',
+    'CSS Modules'
+  ],
+  github: 'https://github.com/sreekanth039/ExpenseTracker',
+  demo: 'https://expense-tracker-three-nu-76.vercel.app/',
+  status: 'Completed',
+  duration: '1–2 weeks',
+  teamSize: '1 member',
+  features: [
+    'Add income to update wallet balance; balance persists using localStorage.',
+    'Add, edit, and delete expenses with title, price, category, and date.',
+    'All expenses saved in localStorage — no backend required.',
+    'Interactive Pie and Bar Charts created with Recharts for visual insights.',
+    'Category-wise spending visualization that updates dynamically.',
+    'Clean and intuitive Recent Transactions list with edit/delete actions.',
+    'Fully responsive layout with cards, charts, and dashboard-style UI.',
+    'Uses reusable components and modular architecture for scalability.',
+    'Fast development and bundling powered by Vite.'
+  ],
+},
+    {
+  id: 4,
   title: 'Hirrd',
   shortDesc: 'Full-stack Job Portal',
   fullDesc:
@@ -34,7 +135,7 @@ const Projects = () => {
   ],
 },
        {
-      id: 2,
+      id: 5,
       title: 'QTify',
       shortDesc: 'Song Browsing Web App',
       fullDesc: "QTify is a music browsing web application that allows users to explore, search, and discover top and new albums. Built from scratch using React and Material UI based on Figma designs, QTify focuses on creating a responsive, reusable, and visually consistent frontend experience.",
@@ -56,7 +157,7 @@ const Projects = () => {
 ],
     },
     {
-      id: 3,
+      id: 6,
       title: 'QKart-Frontend',
       shortDesc: 'Modern e-commerce application with React',
       fullDesc: 'QKart is an e-commerce application offering a variety of products for customers to choose buy and get delivered to their required address.',
@@ -78,7 +179,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 4,
+      id: 7,
       title: 'QTripDynamic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.',
       fullDesc: 'QTripDynamic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -98,7 +199,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 5,
+      id: 8,
       title: 'QTripStatic',
       shortDesc: 'QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities. ',
       fullDesc: 'QTripStatic is a responsive travel booking application designed for adventure enthusiasts seeking experiences across multiple cities. The app allows users to browse destinations, explore a wide range of activities, and filter experiences based on categories and preferences.',
@@ -116,7 +217,7 @@ const Projects = () => {
       ]
     },
     {
-      id: 6,
+      id: 9,
       title: 'Xboard',
       shortDesc: 'XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.',
       fullDesc: 'XBoard is a dynamic news feed application that aggregates and displays the latest updates on selected topics from Flipboard. It provides users with real-time news content in an intuitive, responsive interface, making it easy to stay informed and engaged with trending stories across different categories.',
