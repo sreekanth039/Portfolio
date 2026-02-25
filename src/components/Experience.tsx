@@ -141,11 +141,6 @@ const Experience = () => {
     ]
   }
 ];
-   
-
- 
-
-  ];
   
 
   return (
