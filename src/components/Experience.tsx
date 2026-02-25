@@ -174,7 +174,6 @@ const Experience = () => {
                   <h3 className="text-xl font-bold text-white">{experience.title}</h3>
                   <h4 className="text-lg text-blue-400 mb-4">{experience.company}</h4>
 
-                  {/* 🔒 BULLETS LOCKED TO NORMAL LEFT ALIGNMENT */}
                   <ul className="space-y-2 mb-6 text-left">
                     {experience.description.map((item, i) => (
                       <li key={i} className="flex items-start text-gray-300">
