@@ -12,7 +12,6 @@ const Experience = () => {
       description: [
         'Developed the Quiz Battle feature end-to-end using React and Material UI, building a reusable component library that increased development efficiency by 20% and boosted pre-launch user engagement',
         'Improved initial load performance by 15% through route-level lazy loading and code splitting, enhancing SEO outcomes and user retention',
-        'Accelerated delivery timelines by 25% by simulating backend APIs with Mock Service Worker (MSW), enabling parallel frontend–backend development and reducing integration delays',
         'Enhanced application accessibility by implementing WCAG 2.1 standards using semantic HTML, keyboard navigation, ARIA attributes, and screen reader testing',
         'Collaborated within Agile sprints alongside backend and design teams, contributing to code reviews, sprint planning, and retrospectives to strengthen code quality and cross-functional alignment',
       ],
@@ -35,12 +34,10 @@ const Experience = () => {
       period: 'January 2025 - January 2026',
       type: 'Graduate Program',
       description: [
-        'Delivered 10+ sprint features across e-commerce (QKart), healthcare (Medify), and AI-driven projects (Bot AI, XBoard, QTify) with full QA sign-off, improving application reliability and user experience',
-        'Reduced recurring frontend defects by 30% through structured debugging, comprehensive testing strategies, and collaborative code reviews',
+        'Delivered 10+ sprint features across e-commerce, healthcare, and AI-driven projects with full QA sign-off, improving application reliability and user experience',
         'Implemented core user-facing features including search, filtering, pagination, authentication, and cart management to support scalable application workflows',
         'Integrated RESTful APIs using Axios, handling loading states, error scenarios, and edge cases to ensure reliable client–server data exchange',
         'Accelerated development velocity by leveraging AI-assisted tools such as ChatGPT and Cursor for debugging, refactoring, and feature implementation',
-        'Built responsive, mobile-first user interfaces using React, Material UI, and modern CSS frameworks',
       ],
       tech: [
         'HTML',
@@ -55,18 +52,6 @@ const Experience = () => {
         'Git',
         'AI-Assisted Development',
       ],
-    },
-    {
-      title: 'Customer Team Member',
-      company: 'Rontec',
-      period: 'August 2024 - April 2025',
-      type: 'Part Time',
-      description: [
-        'Handled 100+ customers per hour while maintaining a 94% customer satisfaction rating',
-        'Processed over 1,500 daily transactions with 99.9% accuracy, ensuring financial integrity',
-        'Reduced peak-hour queue times by 50% through efficient checkout coordination and teamwork',
-      ],
-      tech: ['Customer Service', 'Problem Solving', 'Operational Efficiency', 'Team Collaboration'],
     },
     {
       title: 'Systems Engineer',
@@ -101,7 +86,6 @@ const Experience = () => {
         'Reduced deployment-related issues by 30% by performing thorough pre-release checks on document analyzers, metadata, and ETL pipelines to ensure stable production rollouts',
         'Resolved high-impact incidents by coordinating with server, cloud, firewall, and database teams across multiple regions, minimizing downtime and business disruption',
         'Led enterprise analytics platform administration, managing user access controls, security permissions, system monitoring, and performance optimization',
-        'Recognised as a Top 10 Performer by the client for resolving a high volume of critical support tickets, contributing to a 40% reduction in platform-related issues',
       ],
       tech: [
         'Qlik Sense',
