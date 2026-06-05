@@ -33,7 +33,7 @@ It showcases my skills, projects, and experiences as an aspiring **Full-Stack / 
 
 ## 🔗 Live Demo
 
-👉 https://portfolio-miy73lkqm-sreekanths-projects-5e538b0f.vercel.app/
+👉 https://sreekanthmeka-portfolio.vercel.app/
 
 ---
 
