@@ -5,6 +5,19 @@ import { GraduationCap, Calendar } from 'lucide-react';
 const Education = () => {
   const education = [
     {
+      degree: 'Full Stack Web Developer',
+      school: 'Crio.do',
+      period: 'January 2025 - January 2026',
+      type: 'Graduate Program',
+      description: [
+        'Delivered 10+ sprint features across e-commerce, healthcare, and AI-driven projects with full QA sign-off, improving application reliability and user experience',
+        'Implemented core user-facing features including search, filtering, pagination, authentication, and cart management to support scalable application workflows',
+        'Integrated RESTful APIs using Axios, handling loading states, error scenarios, and edge cases to ensure reliable client–server data exchange',
+        'Accelerated development velocity by leveraging AI-assisted tools such as ChatGPT and Cursor for debugging, refactoring, and feature implementation',
+      ],
+      tech: ['HTML','CSS','JavaScript','TypeScript','React','Axios','REST APIs','Material UI','Responsive Design','Git','AI-Assisted Development'],
+    },
+    {
       degree: 'Postgraduate Degree, Computer Science',
       school: 'Swansea University',
       period: 'September 2023 - September 2024',
