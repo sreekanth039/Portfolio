@@ -60,7 +60,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl md:text-2xl text-gray-300 mb-8"
             >
-              I am Full Stack Web Developer
+              I am a Front-End Web Developer
             </motion.p>
 
             <motion.p
@@ -69,7 +69,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg text-gray-400 mb-10 max-w-lg"
             >
-              I’m a graduate aspiring to become a full-stack or front-end web developer, passionate about building engaging, user-focused applications. With a foundation in the MERN stack and hands-on experience using React.js, Node.js, and Tailwind CSS, I’m eager to keep learning and applying new technologies. I bring enthusiasm, curiosity, and a commitment to delivering value while growing as a developer.
+              I’m a front-end web developer passionate about building engaging, user-focused applications. With a strong foundation in the MERN stack and hands-on experience using React.js, Node.js, Tailwind CSS, BigCommerce, and Handlebars, I focus on creating clean, responsive, and practical web experiences. I bring curiosity, problem-solving skills, and a commitment to delivering value through modern web development.
             </motion.p>
 
             {/* Social Links */}
