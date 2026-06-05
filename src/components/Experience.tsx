@@ -45,7 +45,6 @@ const Experience = () => {
         'Code Splitting',
         'Accessibility (WCAG 2.1)',
         'Responsive Design',
-        'Mock Service Worker (MSW)',
         'Agile / Scrum',
       ],
     },
