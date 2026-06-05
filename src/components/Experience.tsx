@@ -140,6 +140,23 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
       <div className="max-w-4xl mx-auto">
+         <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="text-center mb-16"
+      >
+        <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-6">
+          Experience
+        </h2>
+
+        <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
+
+        <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          My professional journey, technical experience, and the roles that shaped my career growth
+        </p>
+      </motion.div>
         <div className="relative">
           <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-purple-500"></div>
 
