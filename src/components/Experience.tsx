@@ -5,6 +5,27 @@ import { Briefcase, Calendar } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+  title: 'Junior IT Developer',
+  company: 'Watcho Jewellers',
+  period: 'March 2026 - Present',
+  type: 'Full Time',
+  description: [
+    'Worked on improving the website search experience by implementing UI enhancements, search auto-completion, recent searches, recently viewed products, suggestions, and popular search features',
+    'Contributed to web performance improvements across both mobile and desktop, helping improve overall customer experience, page usability, and browsing efficiency',
+    'Implemented mobile menu enhancements, including drill-down navigation flows, to make product categories and pages easier to access on smaller screens',
+    'Collaborated directly with the founder and colleagues to understand requirements, discuss improvements, test changes, and deliver practical website enhancements',
+  ],
+  tech: [
+    'BigCommerce',
+    'Handlebars',
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'Cursor',
+    'ChatGPT',
+  ],
+},
+    {
       title: 'Frontend Developer',
       company: 'Kewordal',
       period: 'November 2025 - February 2026',
